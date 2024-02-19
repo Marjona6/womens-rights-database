@@ -1,9 +1,11 @@
 import "./App.css";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <>
-      <h1 className="text-green">Women&apos;s Human Rights Database</h1>
+      <NavBar />
+      <h1 className="">Welcome to the European Migrant Women&apos;s Rights Case Law Database</h1>
     </>
   );
 }
